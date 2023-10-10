@@ -1,0 +1,16 @@
+using count vectorizer we create a document term matrix which has a matrix of each column as a work and each cell having the count of words.
+the row having the word.
+
+it arranges the words in ascending order. if there are any single words, it does not consider them.
+
+each string corresponds to a document. in the case of a data frame, each row would correspond to a document.
+
+
+p(A/B)=(p(B/A)*P(A))/p(B)
+p(y=yes/sentences) -->    where sentences consist of the words present in the processed sentences
+p(y=yes/sentences)=(p(sentences/y=yes)*p(y=yes))/p(sentences))
+p(y=yes/sentences)=(p(X1/y=yes)*p(y=yes))/p(X1))*(p(X2/y=yes)*p(y=yes))/p(X2))*(p(X3/y=yes)*p(y=yes))/p(X3))...
+                  (p(Xn/y=yes)*p(y=yes))/p(Xn))
+
+
+
